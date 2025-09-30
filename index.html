@@ -73,7 +73,7 @@
       </div>
     </section>
 
-    <section class="section2">
+    <section id="about" class="section2">
       <div class="main-container">
         <div class="about-wrapper">
           <div class="about-me">
@@ -138,7 +138,7 @@
       </div>
     </section>
 
-    <section class="section1">
+    <section id="portfolio" class="section1">
       <div class="main-container">
         <h3 style="text-align: center">The Lab</h3>
 
@@ -155,7 +155,7 @@
                 <p class="post-intro">
                   A modern business website prototype designed with usability and clean visuals in mind.
                 </p>
-                <a href="#">Read More</a>
+                <a href="assets/html/post.html">Read More</a>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@
                 <p class="post-intro">
                   A personal portfolio site showcasing my skills in front-end development and design.
                 </p>
-                <a href="#">Read More</a>
+                <a href="assets/html/post.html">Read More</a>
               </div>
             </div>
           </div>
@@ -250,8 +250,29 @@
       </div>
     </section>
 
-    <section class="section2">
-      <div class="main-container">Contact</div>
+    <section id="contact" class="section2">
+      <div class="main-container">
+        <h3 style="text-align: center;">Get In Touch</h3>
+        <form action="" id="contact-form">
+          <!-- Name Label -->
+          <label>Name</label>
+          <input type="text" name="name" class="input-field">
+
+          <!-- Subject Label -->
+          <label>Subject</label>
+          <input type="text" name="subject" class="input-field">
+
+          <!-- Email -->
+          <label>Email</label>
+          <input type="text" name="email" class="input-field">
+
+          <!-- Textarea -->
+          <label>Message</label>
+          <textarea type="text" name="message" class="input-field"></textarea>
+
+          <input id="submit-btn" type="submit" value="Send">
+        </form>
+      </div>
     </section>
   </body>
 </html>
